@@ -49,6 +49,6 @@ module.exports = {
             template: './public/index.html',
             //El nombre que tendrá el archivo
             filename: './index.html',
-        })
+        }),
     ]
 }
