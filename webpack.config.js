@@ -21,14 +21,23 @@ module.exports = {
     // Modulo con las reglas que van a aplicar en el proyecto
     module: {
         rules: [{
-            // Estructura de babel
-            test: /\.js?$/,
-            exclude: /node_modules/,
-            // Utilizar un loader como configuración establecida
-            use: {
-                loader: 'babel-loader'
-            }
-        }]
+                // Estructura de babel
+                test: /\.js?$/,
+                exclude: /node_modules/,
+                // Utilizar un loader como configuración establecida
+                use: {
+                    loader: 'babel-loader'
+                }
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    "style-loader",
+                    { loader: "css-loader", options: { importLoaders: 1 } },
+                    "postcss-loader",
+                ],
+            },
+        ]
     },
 
     // Establecemos los plugins que vamos a utilizar

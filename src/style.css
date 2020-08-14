@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    @apply bg-gray-200 text-gray-800
+}
+
+.Header-main {
+    @apply flex justify-between items-center p-5 bg-green-200 bg-opacity-75 text-xl;
+}
+
+.Header a {
+    @apply text-gray-600
+}
+
+.Main {
+    @apply grid justify-center p-10;
+}
+
+.Characters {
+    @apply grid grid-cols-3 gap-6;
+}
+
+.Characters-inner {
+    @apply grid grid-cols-2 gap-6;
+}
+
+.Characters-card {
+    @apply rounded-lg mb-5;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    animation-duration: 2s;
+    animation-name: fade;
+}
+
+.Characters-card img {
+    @apply w-full h-auto rounded-lg;
+}
+
+.Character-item {
+    @apply rounded-lg mb-5 text-lg text-center;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+}
+
+.Character-item img {
+    @apply w-full h-auto rounded-lg rounded-t-none;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
