@@ -18,11 +18,11 @@ body {
 }
 
 .Characters {
-    @apply grid grid-cols-3 gap-6;
+    @apply grid grid-cols-1 gap-6;
 }
 
 .Characters-inner {
-    @apply grid grid-cols-2 gap-6;
+    @apply grid grid-cols-1;
 }
 
 .Characters-card {
