@@ -14,6 +14,14 @@ The application is built with webpack. You can run the following command to inst
 ```
 $ npm install
 ```
+Work in dev mode.
+```
+$ npm run start
+```
+Build final app.
+```
+$ npm run build
+```
 
 ## 🎨 Preview
 <details>
