@@ -7,7 +7,7 @@
 ## ✍🏻 Description
 This app was built in SPA course in Platzi. In addition to what was seen in the course, I implemented all the CSS with Tailwind. It was a challenge for me to implement this framework in webpack. It was satisfying to get this result.
 
-You can see the result here → [Rick & Morty - Characters](http://alejandra-camacho.me/Rick-Morty/)
+You can see the result here → [Rick & Morty - Characters](https://alexcamachogz.github.io/Rick-Morty/)
 
 ## 🚀 Getting Started
 The application is built with webpack. You can run the following command to install all dependencies.
